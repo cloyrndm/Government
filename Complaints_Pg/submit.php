@@ -67,10 +67,43 @@ while($row = mysqli_fetch_array($records)){
 
 		echo "<td><input type=submit>";
 	echo "</form><tr>";
+
+
+	echo "<tr>";
+	echo "<td>".$row['complainantComplain']."</td>";
+	echo "<td>".$row['Response']."</td>";
+	// echo "<td>".$row['comments']."</td>";
+
 }
+
+// while($row = mysqli_fetch_array($records)){
+// 	echo "<tr>";
+// 	echo "<td>".$row['complainantComplain']."</td>";
+// 	echo "<td>".$row['Response']."</td>";
+// 	// echo "<td>".$row['comments']."</td>";
+// }
 ?>
 
 </table>
+
+<!-- <?php
+//create connection with sql database
+//$con important to manipulate the database, $con -> connection parameter
+
+//select database, getdata=database name
+if(!mysqli_select_db($con,'getdata'))
+{
+echo "Database not selected";
+}
+//select query
+//data = table name
+$sql = "SELECT * FROM data";
+
+//execute query
+$records = mysqli_query($con,$sql);
+
+
+?> -->
 
 <script src="my_script.js" type="text/javascript"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
