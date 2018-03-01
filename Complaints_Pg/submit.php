@@ -89,6 +89,7 @@ while($row = mysqli_fetch_array($records)){
 <!-- <?php
 //create connection with sql database
 //$con important to manipulate the database, $con -> connection parameter
+$con = mysqli_connect('localhost','root','');
 
 //select database, getdata=database name
 if(!mysqli_select_db($con,'getdata'))
