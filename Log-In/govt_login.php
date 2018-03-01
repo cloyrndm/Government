@@ -21,7 +21,7 @@ if(isset($_POST['username'])){
   $sql="SELECT * FROM log_in_govt WHERE employee_id='".$uname."'AND password='".$password."'limit 1" ;
 
   $result=mysqli_query($con,$sql);
-
+//katrina ni
   if(mysqli_num_rows($result)==1){
    header("Location:http://divulgo.government/Complaints_Pg/");
     exit();
