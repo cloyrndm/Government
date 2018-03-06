@@ -24,7 +24,7 @@
 <div id="menu">
 <a  href="index.html">About Us</a>
 <a  href="submit.php">Complaints</a> 
-<a class="active" href="retrieve_data.php">Retreive Data</a> 
+<a class="active" href="retrieve_data.php">Responses</a> 
  
 </div>
 </div>

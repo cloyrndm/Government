@@ -22,9 +22,9 @@
 <h2>Addressing Concerns, Tearing Down Predicaments</h2>
 
 <div id="menu">
-<a  href="index.html">About Us</a>
+<a href="index.html">About Us</a>
 <a class="active" href="submit.php">Complaints</a> 
-<a href="retrieve_data.php">Retreive Data</a> 
+<a href="retrieve_data.php">Responses</a> 
  
 </div>
 </div>
