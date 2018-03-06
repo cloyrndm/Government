@@ -29,7 +29,7 @@
 </div>
 
 
-<table border=1 cellpadding=1 cellspacing=1>
+<table border=1 cellpadding=1 cellspacing=1  style="margin-left:240px;" width="30%">
 	
 <tr>
 	
@@ -69,9 +69,9 @@ while($row = mysqli_fetch_array($records)){
 	echo "</form><tr>";
 
 
-	echo "<tr>";
-	echo "<td>".$row['complainantComplain']."</td>";
-	echo "<td>".$row['Response']."</td>";
+	// echo "<tr>";
+	// echo "<td>".$row['complainantComplain']."</td>";
+	// echo "<td>".$row['Response']."</td>";
 	// echo "<td>".$row['comments']."</td>";
 
 }

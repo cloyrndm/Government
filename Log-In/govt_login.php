@@ -23,7 +23,7 @@ if(isset($_POST['username'])){
   $result=mysqli_query($con,$sql);
 //katrina ni
   if(mysqli_num_rows($result)==1){
-   header("Location:http://divulgo.government/Complaints_Pg/");
+   header("Location:http://divulgogovt/");
     exit();
   }
 //   else{
